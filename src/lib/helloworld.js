@@ -6,7 +6,7 @@ import styles from '../styles/styles.scss';
 const template = `
     <style>${styles.toString()}</style>
     <div class="helloworld">
-        <p>Hello World Element</p>
+        <p>Hello World Element (Inside the element)</p>
         <p id="data"></p>
         <p id="dataattr"></p>
     </div>
