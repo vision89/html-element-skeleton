@@ -1,4 +1,4 @@
-## Pure Carousel
+## HTML Element Skeleton
 
 Created in 2020 by Dustin Gulley. 
 Skeleton code for having an html element starting point
