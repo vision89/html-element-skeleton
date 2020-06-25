@@ -23,18 +23,7 @@ module.exports = {
     rules: [
         {
           test: /\.scss$/i,
-          use: ['css-loader', {
-            loader: "postcss-loader",
-            options: {
-                sourceMap: true,
-            },
-            },
-            {
-                loader: "sass-loader",
-                options: {
-                    sourceMap: true
-                }
-            },],
+          use: ['css-loader', 'postcss-loader', 'sass-loader',],
         },
         {
             test: /\.js$/,
@@ -44,7 +33,6 @@ module.exports = {
                     loader: 'babel-loader',
                     options: {
                         presets: ['@babel/preset-env'],
-                        sourceMap: true
                     }
                 }
             ],
@@ -58,7 +46,7 @@ module.exports = {
     ],
    },
     plugins: [
-        new uglifyJsPlugin(),
+        new uglifyJsPlugin({ sourceMap: true }),
         new HTMLWebpackPlugin({
             template: path.resolve(__dirname, 'index.html')}),
         new webpack.HotModuleReplacementPlugin(),

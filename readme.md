@@ -16,5 +16,3 @@ Clone this and use it as a starting point when creating html elements
 
 ## License
 BSD 2-Clause
-
-### TODO: Get sourcemaps working
