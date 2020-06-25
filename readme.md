@@ -10,10 +10,10 @@ TODO: Get sourcemaps working
 ## To install dependencies
         npm install
 
-## To Run:
+## To Run
         npm run start
 
-## To Build:
+## To Build
         npm run build
 
 ## License
