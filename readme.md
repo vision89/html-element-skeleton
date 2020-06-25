@@ -13,7 +13,7 @@ TODO: Get sourcemaps working
 ## To Run:
         npm run start
 
-To Build:
+## To Build:
         npm run build
 
 ## License
